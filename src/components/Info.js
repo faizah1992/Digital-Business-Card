@@ -20,6 +20,12 @@ export default function Info() {
                 <h2 className="info--about--title">About</h2>
                 <p className="info--about">I am a passionate Software Engineer with experience in HTML, CSS, Ruby on Rails, React and JavaScript framework, and a background in Supply Chain Management & Finance. I am highly skilled in pair-programming, analytical research and time management.
                 Graduated from Flatiron School as Full Stack Developer with knowledge in various software competencies. </p>
+                <h2 className="info--interests--title">
+                    Interests
+                </h2>
+                <p className="info--interests">
+                    Coffee fanatice, Travel geek, Entreprenuer, Designing, Beauty lover, social-media influencing.
+                </p>
             <footer>
                 <a href="https://www.facebook.com/blushingmauve"><img className="facebook--logo" src={facebookLogo} alt="facebook logo"></img></a>
                 <a href="https://www.instagram.com/blushingmauve/"><img className="insta--logo" src={instaLogo} alt="instagran logo"></img></a>
