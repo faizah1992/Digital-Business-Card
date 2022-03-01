@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #23252C ;
+}
+
+.container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.info-container{
+  width: 330px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #1A1B21 ;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.info--img{
+  border-radius: 20px 20px 0 0;
+  width: 330px;
+  height: auto;
+  
+}
+
+.info--name{
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info--title{
+  color: #F3BF99 ;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.info--website a{
+  color: #fff;
+  text-decoration: none;
+  margin-top: 0;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.info--website{
+  margin-top: 5px;
+}
+
+.email--btn{
+  color: #374151;
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 15px;
+}
+
+.email--btn a{
+  text-decoration: none;
+}
+
+.email--btn a:visited{
+  text-decoration: none;
+  color: #374151;
+}
+
+.email--btn img{
+  margin-right: 5px;
+  vertical-align:middle;
+ 
+}
+
+.linkedin--btn{
+  color: #fff;
+  background-color: #5093E2;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.linkedin--btn img{
+  margin-right: 5px;
+  vertical-align:middle;
+}
+
+.linkedin--btn a{
+  text-decoration: none;
+}
+
+.linkedin--btn a:visited{
+  text-decoration: none;
+  color: #fff
+}
+
+.info--about{
+  color: #fff;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px
+}
+
+.info--about--title{
+  text-align: left;
+  color: #fff;
+  padding-left: 40px;
+}
+
+footer{
+  background-color: #161619;
+  padding: 20px 0;
+  border-radius: 0 0 20px 20px;
+}
+
+footer img{
+  padding-left: 10px;
+  padding-right: 10px;
 }
